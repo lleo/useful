@@ -36,9 +36,6 @@ Return log base 10 of `d`.
 ### `order10(d)`
 Return the base 10 order of magnitude of `d`.
 
-### `isInt(d)`
-Returns true if `d` is an integer number, and false otherwise.
-
 ### `min(a,b)`
 Returns the smaller value of `a` or `b`.
 
@@ -52,3 +49,14 @@ Returns `1` if `a > b`, `-` if `a < b`, and `0` if `a === b`.
 Returns a new Buffer which is the concatenation of `bufs`, where `bufs`
 is an array of Buffer objects.
 
+### `isInt(d)`
+Returns true if `d` is an integer number, and false otherwise.
+
+### `isString(s)`
+Returns true if `s` is a string, and false otherwise.
+
+### `isNumber(d)`
+Returns true if `d` is a Number, and false otherwise.
+
+### `isFunction(d)`
+Returns true if `d` is a Function, and false otherwise.
