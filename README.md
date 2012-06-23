@@ -22,7 +22,9 @@ Returns a random number `[n,n+d)`. If it is called `rand(d)`, then `n=0`.
 
 ### `psuedo_foor(d)`
 There is a problem with some Math functions. For example,
+
     Math.log(1000)/Math.LN10 //=> 2.9999999999999996 oops!
+
 Hence, `Math.floor(Math.log(1000)/Math.LN10)` returns 2 which is wrong.
 `pseudo_floor(d)` returns `d` if `d` is within `Math.pow(2,-43)` of `d`.
 `2^-43` was chosen cuz it works on my `log10()` function for the whole span
